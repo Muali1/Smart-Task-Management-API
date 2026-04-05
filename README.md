@@ -26,9 +26,12 @@ Follow these steps to run the project locally:
 5. Run Migrations & Seeders: php artisan migrate:fresh --seed
 6. Serve the Application: php artisan serve
 
-**API Endpoints :
- 1. GET : /api/tasks             Get all tasks (Supports search, filter, and sort)
- 2. POST : /api/tasks            Create a new Task
- 3. GET: /api/tasks/{id}         Get a specific Task Details 
- 4. PUT : /api/tasks/{id}        Update task details & status
- 5. DELETE : /api/tasks/{id}     Delete Task
+### 🔌 API Endpoints Reference
+
+| Method | Endpoint | Functionality | Description |
+| :--- | :--- | :--- | :--- |
+| **GET** | `/api/tasks` | **List Tasks** | Retrieve all tasks with support for **filtering**, **searching**, and **sorting**. |
+| **POST** | `/api/tasks` | **Create Task** | Add a new task to the system (Validates priority and due date). |
+| **GET** | `/api/tasks/{id}` | **Task Details** | Fetch all details of a specific task by its ID. |
+| **PUT** | `/api/tasks/{id}` | **Update Task** | Modify task details or update status (Validates **Status Flow**). |
+| **DELETE** | `/api/tasks/{id}` | **Remove Task** | Permanently delete a task from the database. |
