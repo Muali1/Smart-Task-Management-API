@@ -27,8 +27,8 @@ Follow these steps to run the project locally:
 6. Serve the Application: php artisan serve
 
 **API Endpoints :
-1- GET : /api/tasks Get all tasks (Supports search, filter, and sort)
-2- POST : /api/tasks Create a new Task
-3- GET: /api/tasks/{id} Get a specific Task Details 
-4- PUT : /api/tasks/{id} Update task details & status
-5- DELETE : /api/tasks/{id} Delete Task
+** 1-GET : /api/tasks Get all tasks (Supports search, filter, and sort)
+** 2- POST : /api/tasks Create a new Task
+** 3- GET: /api/tasks/{id} Get a specific Task Details 
+** 4- PUT : /api/tasks/{id} Update task details & status
+** 5- DELETE : /api/tasks/{id} Delete Task
